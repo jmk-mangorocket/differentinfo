@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:kanomsoft.com)",
+      "WebFetch(domain:jikkujose.in)",
+      "Bash(npm show:*)",
+      "Bash(vercel --version:*)",
+      "Bash(vercel:*)",
+      "WebFetch(domain:blog-g6iaohutp-kanoms-projects-25a19c47.vercel.app)",
+      "Bash(npm install)",
+      "Bash(gh run list:*)",
+      "Bash(grep:*)",
+      "WebFetch(domain:golf-blog-kd6x4ak83-mangorocketofficials-projects.vercel.app)"
+    ]
+  }
+}
