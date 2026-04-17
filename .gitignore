@@ -44,3 +44,13 @@ next-env.d.ts
 
 .vercel
 .env*.local
+
+# Claude Code temp files
+tmpclaude-*
+.claude/
+
+# Browser profile data
+data/
+
+# Local scripts output
+update.md
