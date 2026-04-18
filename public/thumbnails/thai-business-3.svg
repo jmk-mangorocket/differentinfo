@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a3e635"/>
+      <stop offset="100%" stop-color="#4d7c0f"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1050" cy="100" r="180" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="1100" cy="560" r="120" fill="#ffffff" fill-opacity="0.1"/>
+  <circle cx="100" cy="540" r="90" fill="#ffffff" fill-opacity="0.08"/>
+
+  <g transform="translate(80, 90)">
+    <rect width="180" height="56" rx="28" fill="#ffffff" fill-opacity="0.95"/>
+    <text x="90" y="37" font-family="'Noto Sans KR', sans-serif" font-size="24" font-weight="700" fill="#4d7c0f" text-anchor="middle">태국창업</text>
+  </g>
+
+  <g font-family="'Noto Sans KR', sans-serif" fill="#ffffff" stroke="#000000" stroke-width="6" paint-order="stroke" stroke-linejoin="round" filter="url(#shadow)">
+    <text x="80" y="280" font-size="78" font-weight="800">방콕 오피스</text>
+    <text x="80" y="380" font-size="78" font-weight="800">추천 빌딩 3곳</text>
+  </g>
+
+  <text x="80" y="470" font-family="'Noto Sans KR', sans-serif" font-size="32" font-weight="500" fill="#ffffff" fill-opacity="0.95">실제 견적·위치·조건 비교</text>
+
+  <g transform="translate(80, 540)">
+    <rect width="8" height="36" fill="#ffffff"/>
+    <text x="24" y="28" font-family="'Noto Sans KR', sans-serif" font-size="26" font-weight="700" fill="#ffffff">태국라이프</text>
+  </g>
+</svg>
